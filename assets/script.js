@@ -40,11 +40,26 @@ const teamMembers = [
   }
 ];
 
+//dom element
+const team = document.getElementById('team');
+
+//Process
+for (let i = 0; i < teamMembers.length; i++) {
+  const member = teamMembers[i];
+  console.log(member);
+
+
+  const style = member_card(member);
+  console.log(style);
+
+
+}
+
 
 //Member Card
 function member_card(member) {
 
-  const {name, role, email, img} = member
+  const { name, role, email, img } = member
 
   return `
     <div class="card mb-3 col-4 bg-dark p-0">
