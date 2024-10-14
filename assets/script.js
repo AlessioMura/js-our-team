@@ -64,9 +64,9 @@ function member_card(member) {
       <div class="row g-0">
         <img src="${img}" class="img-fluid col-4" alt="...">
           <div class="card-body col-8 text-light">
-            <h3 class="card-title">${name}</h3>
-            <div class="card-text">${role}</div>
-            <div class="card-text">${email}</div>
+            <h3 class="card-title mb-3">${name}</h3>
+            <div class="card-text mb-3">${role}</div>
+            <a class="card-text text-decoration-none">${email}</a>
           </div>
         </div>
       </div>
